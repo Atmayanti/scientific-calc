@@ -1,0 +1,179 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #00ADB5;
+}
+
+.dropdown-item:hover {
+    background-color: #00ADB5;
+}
+
+.dropdown-menu {
+    background-color: #393E46;
+}
+
+.kontak {
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+}
+
+.kontak:hover {
+    text-decoration: none;
+}
+
+.kebijakan {
+    color: black;
+}
+
+.kebijakan:hover {
+    text-decoration: none;
+}
+
+.garis {
+    color: #EEEEEE;
+    width: 85%;
+}
+
+.navbar-brand,
+.col-sm-7 {
+    font-weight: bold !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 25pt;
+}
+
+/* Home page */
+.hal-rumah {
+    background-image: url("../images/kalkulator1.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    margin-bottom: 100px;
+}
+
+.tulisan-rumah {
+    background-color: rgba(0, 0, 0, 0.37);
+    display: block;
+    padding: 20px;
+    position: relative;
+    top: 503px;
+    padding-left: 50px;
+}
+
+.rumah-judul {
+    font-size: 70pt;
+    font-weight: bold;
+}
+
+/* konten rumah */
+.konten-rumah {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.konten-kiri {
+    margin: 10px;
+    width: 65%;
+    background-color: #222831;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.kon-ki {
+    margin-bottom: 50px;
+}
+
+.kon-ki-judul {
+    padding: 5px;
+    border-bottom: 5px solid #fefefe;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.kon-ki-isi {
+    text-align: justify;
+    line-height: 24px;
+}
+
+.konten-kanan {
+    border-left: 1px solid #fefefe5e;
+    margin: 10px;
+    width: 25%;
+    border-radius: 3px;
+    padding-left: 40px;
+}
+
+.kartu-konten {
+    background-color: #2e3441;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin-bottom: 30px;
+}
+
+.kon-ka-gbr {
+    height: 100px;
+    background-image: url("../images/konten.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.kon-ka-gbr2 {
+    height: 100px;
+    background-image: url("../images/konten2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.kon-ka-gbr3 {
+    height: 100px;
+    background-image: url("../images/konten3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.kon-ka-gbr-judul {
+    display: block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.473);
+    position: relative;
+    top: 51px;
+}
+
+.kon-ka-isi {
+    padding: 15px;
+}
+
+.kon-ka-isi p {
+    text-align: justify;
+}
+
+.kon-ka-sel {
+    text-align: end;
+    display: block;
+    text-decoration: none;
+    color: #00ADB5;
+}

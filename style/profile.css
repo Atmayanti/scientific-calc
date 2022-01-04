@@ -1,0 +1,93 @@
+.konatas {
+    padding: 3vw;
+    margin-top: 40px;
+    border: 1px solid #505763;
+    border-radius: 10px;
+    background-color: #333b47;
+    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.6);
+}
+
+#potopropil {
+    max-width: 12vw;
+    margin-bottom: 4vw;
+}
+
+.profiletable {
+    width: 100%;
+    margin-bottom: 3vw;
+}
+
+.p-tr {
+    display: block;
+    margin-bottom: 1vw;
+    padding: 8px;
+}
+
+.p-nama,
+.p-samadengan,
+.p-isi {
+    display: inline-block;
+    font-size: 16pt;
+}
+
+.p-nama {
+    width: 20%;
+}
+
+.p-samadengan {
+    width: 3%;
+}
+
+.p-isi {
+    width: 35%;
+}
+
+.tomboledit {
+    float: right;
+    background-color: #00ADB5;
+    color: white;
+}
+
+.tomboledit:hover {
+    background-color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* edit profile */
+.kembali {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.kembali:hover {
+    background-color: #fefefe;
+    color: black;
+    box-shadow: 2px 5px 8px 3px rgba(0, 0, 0, 0.39);
+
+
+}
+
+.tombolsimpan {
+    float: right;
+}
+
+.p-editinput {
+    padding-left: 20px !important;
+    border-radius: 5px;
+    background-color: #404a58;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.p-editinput:hover {
+    background-color: #20262e;
+}
