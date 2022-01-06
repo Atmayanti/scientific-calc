@@ -1,4 +1,4 @@
-# website Scientific Calculator
+# Website Scientific Calculator
 
 This website is made using PHP. It has some features such as :
 1. Register 
